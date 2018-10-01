@@ -22,6 +22,9 @@ sourceSets.main.java.srcDirs = ['dependencies/public-transport-enabler/enabler/s
 sourceSets.main.resources.srcDirs = ['conf/logs']
 sourceSets.test.java.srcDirs = ['test']
 
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+javadoc.options.encoding = 'UTF-8'
 
 import org.ajoberstar.grgit.*
 
