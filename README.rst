@@ -54,24 +54,6 @@ hosted at https://github.com/fossasia/susi_server, you can download it and run S
     > ./gradlew build
     > bin/start.sh
 
-For Windows Users (who are using GitBash/Cygwin or any terminal):
-
-::
-
-    > git clone https://github.com/fossasia/susi_server.git
-    > cd susi_server
-    > git checkout master
-    > ant jar
-    > java -jar dist/susiserver.jar
-    > git checkout development
-    > ant jar
-    > java -jar dist/susiserver.jar
-
-::
-
-    To stop:
-    > Press Ctrl+C
-
 After all server processes are running, Susi AI tries to open a browser page itself. If that does not happen, just open http://localhost:4000; if you made the installation on a headless or remote server, then replace 'localhost' with your server name.
 
 To stop Susi AI, run: (this will block until the server has actually terminated)
@@ -244,13 +226,6 @@ Where can I find documentation?
 *********
 
 The Documentation can be found `here <https://github.com/fossasia/susi_server/tree/development/docs/api/api.md>`_.
-
-*********
-Where do I find the javadocs?
-*********
-
-You can build them via 'ant
-javadoc'
 
 *********
 Where can I report bugs and make feature requests?
